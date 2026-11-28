@@ -42,21 +42,19 @@ Learning and project documentation in progress.
 Focus: Connecting Laboratory Science with Bioinformatics.
 
 
+
 ## NGS Workflow
 
 ```mermaid
 flowchart TD
-    A[Food Sample Collection]
-    B[DNA Extraction]
-    C[16S rRNA PCR - V3-V4]
-    D[Library Preparation]
-    E[Next Generation Sequencing]
-    F[Quality Control - FastQC]
-    G[DADA2 / QIIME 2]
-    H[SILVA Database]
-    I[Microbial Diversity Analysis]
-
-    A --> B --> C --> D --> E
-    E --> F --> G --> H --> I
+    A[Food Sample Collection] --> B[DNA Extraction]
+    B --> C[16S rRNA PCR V3-V4]
+    C --> D[Library Preparation]
+    D --> E[Next Generation Sequencing]
+    E --> F[Quality Control using FastQC]
+    F --> G[DADA2 and QIIME 2]
+    G --> H[SILVA Database]
+    H --> I[Microbial Diversity Analysis]
 ```
+
 
