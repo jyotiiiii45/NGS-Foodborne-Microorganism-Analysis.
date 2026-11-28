@@ -56,5 +56,3 @@ flowchart TD
     G --> H[SILVA Database]
     H --> I[Microbial Diversity Analysis]
 ```
-
-
